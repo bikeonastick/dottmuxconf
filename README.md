@@ -18,4 +18,9 @@ additions are vim-influenced.
 1. If tmux is already running, reload your conf:
     <leader >: source-file ~/.tmux.conf
 
+## License
 
+This project is released under the [MIT](http://opensource.org/licenses/MIT) 
+license.
+
+Copyright © 2013 robert tomb
