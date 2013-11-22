@@ -14,9 +14,14 @@ additions are vim-influenced.
 
 1. clone this repository
 1. link the tmux.conf in this repo to .tmux.conf in your homedir
-    ln -s ~/dottmuxconf/tmux.conf ~/.tmux.conf
+
+    `ln -s ~/dottmuxconf/tmux.conf ~/.tmux.conf` 
+
 1. If tmux is already running, reload your conf:
-    <leader >: source-file ~/.tmux.conf
+
+    `<leader>: source-file ~/.tmux.conf` 
+
+1. foo
 
 ## License
 
