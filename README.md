@@ -13,9 +13,21 @@ additions are vim-influenced.
 ## Installation instructions
 
 1. clone this repository
+1. initialize and update submodules
+
+   `git submodule init`
+   `git submodule update`
+
+1. create the ~/.tmux directory and link your local plugins dir into it
+
+   ```
+   mkdir ~/.tmux
+   ln -s plugins ~/.tmux/plugins
+   ```
+
 1. link the tmux.conf in this repo to .tmux.conf in your homedir
 
-    `ln -s ~/dottmuxconf/tmux.conf ~/.tmux.conf` 
+   `ln -s ~/dottmuxconf/tmux.conf ~/.tmux.conf` 
 
 1. If tmux is already running, reload your conf:
 
