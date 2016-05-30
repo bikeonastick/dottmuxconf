@@ -33,7 +33,7 @@ additions are vim-influenced.
 
     `<leader>: source-file ~/.tmux.conf` 
 
-1. Install plugins for tmux per the [tmux plugin manager docs](https://github.com/tmux-plugins/tpm) <leader> + I 
+1. Install plugins for tmux per the [tmux plugin manager docs](https://github.com/tmux-plugins/tpm) `ctrl` + `b` + `I`
 
 ## License
 
