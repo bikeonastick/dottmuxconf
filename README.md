@@ -22,7 +22,7 @@ additions are vim-influenced.
 
    ```
    mkdir ~/.tmux
-   ln -s plugins ~/.tmux/plugins
+   ln -s `pwd`/plugins ~/.tmux/plugins
    ```
 
 1. link the tmux.conf in this repo to .tmux.conf in your homedir
@@ -33,7 +33,7 @@ additions are vim-influenced.
 
     `<leader>: source-file ~/.tmux.conf` 
 
-1. foo
+1. Install plugins for tmux per the [tmux plugin manager docs](https://github.com/tmux-plugins/tpm) <leader> + I 
 
 ## License
 
